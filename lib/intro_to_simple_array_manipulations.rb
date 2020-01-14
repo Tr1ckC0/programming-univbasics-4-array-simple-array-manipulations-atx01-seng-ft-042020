@@ -27,21 +27,21 @@ def using_concat(array, other_array)
 end
 
 def using_insert(array, element)
-  
+  array[4].insert(element)
 end
 
 def using_uniq(array)
-
+  array.uniq
 end
 
 def using_flatten(array)
-
+  array.flatten
 end
 
 def using_delete(array, element)
-
+  array.delete(element)
 end
 
-def using_delete_at(array, element)
-
+def using_delete_at(array, index)
+  array[index].delete
 end
